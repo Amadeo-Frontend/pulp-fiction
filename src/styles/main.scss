@@ -10,11 +10,19 @@
 html {
   font-family: "Titillium Web", sans-serif;
   scroll-behavior: smooth;
+
+  @media screen and (max-width: 768px) {
+    overflow-x: hidden;
+  }
 }
 body {
   color: var(--first-color);
   background-color: var(--body-bg-color);
   transition: 0.5s ease;
+
+  @media screen and (max-width: 768px) {
+    margin: 5rem 0 0 0;
+  }
 }
 .container {
   max-width: 1024px;
@@ -30,12 +38,21 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.1;
+
+  @media screen and (max-width: 768px) {
+    font-size: 3em;
+  }
 }
 
 .section-title-02 {
   font-size: 2.5em;
   font-weight: 700;
   transform: translateY(-80px);
+
+  @media screen and (max-width: 768px) {
+    font-size: 2em;
+    transform: translateY(-65px);
+  }
 }
 
 .section-title-02:before {

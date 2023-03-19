@@ -17,6 +17,8 @@
   --scroll-thumb-color: #70768a;
   --scroll-bar-color: #454f6b;
   --scroll-thumb-hover-color: #555659;
+  /*========Color filter===========*/
+  --color-filter: invert(1);
 }
 
 .dark-theme {
@@ -35,4 +37,6 @@
   --scroll-bar-color: #c1ceff;
   --scroll-thumb-color: #282f4e;
   --scroll-thumb-hover-color: #454f6b;
+  /*========Color filter===========*/
+  --color-filter: invert(0);
 }
