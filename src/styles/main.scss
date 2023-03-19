@@ -1,18 +1,21 @@
 @use "reset";
-@use "variables";
 @use "nav";
 @use "theme";
+@use "variables";
 @use "scrollbar";
 @use "scrollToTop";
 
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap");
 
 html {
-  background-color: variables.$corDeFundo;
   font-family: "Titillium Web", sans-serif;
   scroll-behavior: smooth;
 }
-
+body {
+  color: var(--first-color);
+  background-color: var(--body-bg-color);
+  transition: 0.5s ease;
+}
 .container {
   max-width: 1024px;
   width: 100%;
@@ -23,7 +26,7 @@ html {
   font-size: 3.5em;
   font-weight: 800;
   margin-bottom: 2rem;
-  background: linear-gradient(to top, transparent 0%, red 60%);
+  background: linear-gradient(to top, transparent 0%, var(--second-color) 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.1;
@@ -42,5 +45,4 @@ html {
   height: 5px;
   right: 0;
   bottom: 0;
-  background: var(--second-color);
 }

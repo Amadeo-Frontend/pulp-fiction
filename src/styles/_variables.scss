@@ -1,1 +1,38 @@
-$corDeFundo: #fefefe;
+:root {
+  /*========Main theme colors===========*/
+  --first-color: #111c23;
+  --second-color: #ff0505;
+  --third-color: #f8ee03;
+  /*========Hover colors===========*/
+  --hover-color: #614fd0;
+  /*========Background colors===========*/
+  --body-bg-color: #fefefe;
+  --bg-transparent-color: rgba(0, 0, 0, 0.1);
+  --transparent-color-01: rgba(0, 0, 0, 0.1);
+  --transparent-color-02: rgba(106, 89, 209, 0.1);
+  /*========Box shadow===========*/
+  --box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+  /*========Scroll bar colors===========*/
+  --scroll-bar-color: #c5cadf;
+  --scroll-thumb-color: #70768a;
+  --scroll-bar-color: #454f6b;
+  --scroll-thumb-hover-color: #555659;
+}
+
+.dark-theme {
+  /*========Main theme colors===========*/
+  --first-color: #fff;
+  --second-color: #fb3434;
+  --third-color: #fff957;
+
+  /*========Background colors===========*/
+  --body-bg-color: #0e1b31;
+  --bg-transparent-color: rgba(255, 255, 255, 0.1);
+  --transparent-color-01: rgba(255, 255, 255, 0.1);
+  --line-color: #454f6b;
+
+  /*========Scroll bar colors===========*/
+  --scroll-bar-color: #c1ceff;
+  --scroll-thumb-color: #282f4e;
+  --scroll-thumb-hover-color: #454f6b;
+}
