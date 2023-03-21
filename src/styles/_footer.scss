@@ -1,0 +1,17 @@
+footer {
+  background-color: var(--footer-color);
+  width: 100%;
+  padding: 50px;
+
+  p {
+    color: var(--scroll-bar-color);
+    text-align: center;
+    .fab {
+      margin-left: 8px;
+      font-size: 20px;
+      &:hover {
+        color: aliceblue;
+      }
+    }
+  }
+}

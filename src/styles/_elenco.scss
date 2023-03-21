@@ -1,0 +1,50 @@
+#elenco {
+  padding: 20px;
+  box-sizing: border-box;
+  li {
+    list-style: none;
+  }
+}
+.elenco-container {
+  margin-top: -50px;
+}
+.atores {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 32px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .foto {
+    height: 180px;
+    margin-bottom: 18px;
+    border-radius: 18px;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+      5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+      5px 5px 15px 5px rgba(0, 0, 0, 0);
+  }
+
+  .foto img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+  }
+
+  .informacoes h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .informacoes p {
+    margin: 0;
+  }
+}

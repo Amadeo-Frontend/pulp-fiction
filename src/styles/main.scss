@@ -4,6 +4,11 @@
 @use "variables";
 @use "scrollbar";
 @use "scrollToTop";
+@use "sinopse";
+@use "elenco";
+@use "curiosidades";
+@use "trailer";
+@use "footer";
 
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap");
 
@@ -19,10 +24,10 @@ body {
   color: var(--first-color);
   background-color: var(--body-bg-color);
   transition: 0.5s ease;
-
-  @media screen and (max-width: 768px) {
-    margin: 5rem 0 0 0;
-  }
+  overflow-x: hidden;
+}
+section {
+  margin-top: 80px;
 }
 .container {
   max-width: 1024px;
@@ -31,6 +36,7 @@ body {
 }
 
 .section-title-01 {
+  text-align: center;
   font-size: 3.5em;
   font-weight: 800;
   margin-bottom: 2rem;
@@ -45,6 +51,7 @@ body {
 }
 
 .section-title-02 {
+  text-align: center;
   font-size: 2.5em;
   font-weight: 700;
   transform: translateY(-80px);

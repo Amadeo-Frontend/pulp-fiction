@@ -38,18 +38,28 @@ header.sticky .nav-bar {
   font-weight: 600;
 }
 
-.nav-items a {
+.header-title {
+  color: var(--third-color);
+  font-family: "Lilita One", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 3px 5px 2px var(--second-color);
+  letter-spacing: 1.5px;
+  margin-left: 40px;
+}
+.header-item {
   color: var(--third-color);
   margin-right: 40px;
   font-family: "Dancing Script", cursive;
+  font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  gap: 10px;
   cursor: pointer;
 }
 
 .nav-items a:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 .nav-items a:hover {
@@ -64,19 +74,7 @@ header.sticky .nav-bar {
   display: none;
 }
 
-.header-title {
-  color: var(--third-color);
-  font-family: "Lilita One", cursive;
-  font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-shadow: 3px 5px 2px var(--second-color);
-  letter-spacing: 1.5px;
-  margin-left: 40px;
-}
-
-@media screen and (max-width: 1070px) {
-  /*=======Header navigation menu=======*/
+@media screen and (max-width: 1023px) {
   .navigation {
     position: fixed;
     width: 100%;
@@ -86,7 +84,11 @@ header.sticky .nav-bar {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--transparent-color-01);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(16, 27, 48, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease;

@@ -3,20 +3,23 @@
   --first-color: #111c23;
   --second-color: #ff0505;
   --third-color: #f8ee03;
+  /*========footer colors===========*/
+  --footer-color: #070707;
+
   /*========Hover colors===========*/
   --hover-color: #614fd0;
   /*========Background colors===========*/
-  --body-bg-color: #fefefe;
+  --body-bg-color: #fcf5f5;
   --bg-transparent-color: rgba(0, 0, 0, 0.1);
   --transparent-color-01: rgba(0, 0, 0, 0.1);
   --transparent-color-02: rgba(106, 89, 209, 0.1);
   /*========Box shadow===========*/
   --box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
   /*========Scroll bar colors===========*/
-  --scroll-bar-color: #c5cadf;
-  --scroll-thumb-color: #70768a;
-  --scroll-bar-color: #454f6b;
-  --scroll-thumb-hover-color: #555659;
+  --scroll-bar-color: #eceffa;
+  --scroll-thumb-color: #ff2828;
+  --scroll-bar-color: #d8d4c5;
+  --scroll-thumb-hover-color: #c91710;
   /*========Color filter===========*/
   --color-filter: invert(1);
 }
@@ -24,8 +27,11 @@
 .dark-theme {
   /*========Main theme colors===========*/
   --first-color: #fff;
-  --second-color: #fb3434;
+  --second-color: #f89b9b;
   --third-color: #fff957;
+
+  /*========footer colors===========*/
+  --footer-color: #1b1b1b;
 
   /*========Background colors===========*/
   --body-bg-color: #0e1b31;
