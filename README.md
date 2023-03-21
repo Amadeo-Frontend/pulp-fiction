@@ -17,7 +17,7 @@
 
  <div align="center">
  <p align="center">LIVE:</p>
-https://disneyplus-clone-a71cpp78f-amadeo-frontend.vercel.app/
+https://pulp-fiction.vercel.app/
  </div>
  
 #
