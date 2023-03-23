@@ -52,7 +52,16 @@
         <h1 class="section-title-01">Sinopse</h1>
         <h2 class="section-title-02">Sinopse</h2>
         <div class="sinopse-content">
-          <img src="./src/images/capa.jpeg" alt="capa do dvd pulp fiction" />
+          <picture>
+            <source
+              media="(max-width:768px)"
+              srcset="./dist/images/capa-alt.jpeg"
+            />
+            <img
+              src="./dist/images/dvd.jpeg"
+              alt="capa do filme pulp fiction"
+            />
+          </picture>
 
           <p>
             "Pulp Fiction" é um filme de 1994 dirigido por Quentin Tarantino. A
