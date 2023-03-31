@@ -2,7 +2,7 @@
 
 
 </br>
-<p align="center">Uma landing page do filme pulp fiction (100% Responsivo) feito com :</p>
+<p align="center">Uma landing page do filme pulp fiction, com modo escuro e 100% Responsivo, feito com :</p>
 
 </br>
  <div style="display: inline_block" align="center">
