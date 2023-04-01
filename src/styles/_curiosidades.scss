@@ -1,6 +1,7 @@
 .swiper {
   width: 600px;
   height: 320px;
+
   @media (max-width: 768px) {
     width: 350px;
     height: 300px;
@@ -29,4 +30,10 @@ h3 {
 .item {
   margin: 8px;
   letter-spacing: 1px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
